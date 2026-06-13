@@ -57,3 +57,19 @@ SQLite
 ### Conclusion
 ------------
 Voice2Query provides an end-to-end Speech-to-SQL solution that enables intuitive voice-based interaction with databases. By combining Whisper, Ollama with Llama 3, SQLite, and Streamlit, the system successfully converts spoken language into SQL queries, executes them on a relational database, and visualizes the results through an interactive dashboard. The project demonstrates how AI and data management technologies can be integrated to create a practical and user-friendly database exploration system.
+
+
+
+
+### Steps to Run This Project:
+
+1. Downlaod all this code files in your local system
+2. Create virutal environment and activate it
+3. Install all dependent libraries using "pip install -r requirements.txt"
+4. Open terminal run ----> "ollama run llama3"
+5. Open another new terminal run ----> "streamlit run app.py"
+6. It openens in browser and it display interactive dashboard:
+     1. speak in your local english language for which data you want to display  
+     2. then it converts voice to text
+     3. And it create's SQL query
+     4. And display the Results in Dashboard  
