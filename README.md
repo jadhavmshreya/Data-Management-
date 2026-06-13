@@ -27,7 +27,7 @@ Result: Enable users to query databases using voice commands instead of SQL.
 Voice2Query is an AI-powered Speech-to-SQL system designed to simplify database interaction through natural voice commands. The system integrates Automatic Speech Recognition (ASR), Natural Language Processing (NLP), Text-to-SQL generation, and data visualization into a unified pipeline. Spoken queries are first transcribed into text using Whisper, then translated into SQL statements using Ollama with Llama 3. The generated SQL queries are executed on a SQLite database, and the results are displayed through an interactive Streamlit dashboard. By eliminating the need for manual SQL writing, the system enables intuitive and accessible database exploration for users with little or no database expertise. The project demonstrates the practical integration of speech recognition, large language models, and relational database technologies in a fully functional end-to-end application.
 
 
-## Technical Architecture
+## Technical Design & Architecture
 ------------------------
 
 <img width="1536" height="1024" alt="ARchitecture design" src="https://github.com/user-attachments/assets/8e5f1f63-30fd-469c-b923-2670d4efa85d" />
